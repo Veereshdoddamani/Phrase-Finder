@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 4%, 95%);
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  font-size: medium;
+  font-family: bold;
+  
+}
+
+#wordContainer {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.letter {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#keyboardContainer {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#resetButton {
+  margin-top: 20px;
+}
+
+#message {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: rgb(255, 89, 0);
+}
+
+#drowningContainer {
+  position: relative;
+  width: 100px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #05aefc;
+  border: 2px solid #000;
+}
+
+.stage {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #f92a05;
+  transition: height 0.5s;
+}
+
+#stage1 { height: 16.6%; }
+#stage2 { height: 33.2%; }
+#stage3 { height: 49.8%; }
+#stage4 { height: 66.4%; }
+#stage5 { height: 83%; }
+#stage6 { height: 100%; }
+
+
+
+  .h1{
+    font-family:serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(246, 93, 11);
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+
+.bdy{
+    
+    background-color: #000;
+    background-image: url("water-droplet-surface-with-water-droplets-it_896360-1181.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn{
+  background-color: rgb(113, 167, 220);
+}
+.b{
+  background-image: url("bright-blue-sky-gradient-background-clear-empty-sky-texture-blank-skyscape-poster-with-no-clouds-cloudless-empty-sky-natural-background-blue-sky_295890-5266.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
